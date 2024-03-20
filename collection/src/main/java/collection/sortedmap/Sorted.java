@@ -6,7 +6,7 @@ import java.util.TreeMap;
 
 public class Sorted {
 	
-	public SortedMap sortData(List<ModelData> listModelData) {
+	public SortedMap<String, Integer> sortData(List<ModelData> listModelData) {
 		
 		SortedMap<String, Integer> map =new TreeMap <String,Integer>();
 
