@@ -7,9 +7,5 @@
  * in the user manual at https://docs.gradle.org/7.6.4/userguide/multi_project_builds.html
  */
 
-rootProject.name = 'javacore'
+rootProject.name = 'lang'
 include('lib')
-include('collection')
-include('stream')
-include('concurrency')
-include('lang')
