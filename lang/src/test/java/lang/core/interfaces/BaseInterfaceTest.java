@@ -10,7 +10,7 @@ class BaseInterfaceTest {
 	void testOf() {
 		
 	 	var bi = BaseInterface.of(10);
-		
+	 	bi.printline();
 	 	assertTrue( bi.equals(new BaseImpl1(10)) );
 		
 	}
